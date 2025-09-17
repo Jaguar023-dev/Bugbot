@@ -1,4 +1,4 @@
-from pywhatsapp import Client
+from Pywhatkit import Client
 def read_deleted(client):
     client.get_deleted_messages()
 def send_without_save(client, number, message):
