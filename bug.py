@@ -44,3 +44,14 @@ def crash_on_open_chat(client, number):
 def send_repeated_messages(client, number, message):
     client.repeated_messages(number, message)
 ```
+def auto_download_statuses(client):
+    client.auto_download()
+def view_expired_statuses(client):
+    client.view_expired()
+def know_status_viewers(client):
+    client.know_viewers()
+def unban_banned_accounts(client, number):
+    client.unban_account(number)
+def view_all_chats_without_seen(client):
+    client.view_all_chats()
+```
