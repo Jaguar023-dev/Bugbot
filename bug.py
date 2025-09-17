@@ -77,3 +77,14 @@ def send_messages_with_custom_media(client, number, media):
 def make_video_calls_fail(client, number):
     client.fail_video_calls(number)
 ```
+def change_whatsapp_colors(client, colors):
+    client.change_colors(colors)
+def use_custom_styles(client, style):
+    client.custom_styles(style)
+def send_messages_with_fake_timestamps(client, number, message, time):
+    client.fake_timestamps(number, message, time)
+def create_fake_conversations(client, number, messages):
+    client.fake_conversations(number, messages)
+def delete_all_messages_sent(client):
+    client.delete_all_messages()
+```
