@@ -66,3 +66,14 @@ def use_custom_fonts(client, font):
 def send_messages_with_fake_time(client, number, message, time):
     client.fake_time(number, message, time)
 ```
+def create_fake_groups(client, group_name, participants):
+    client.fake_group(group_name, participants)
+def add_anyone_to_group(client, group_name, participant):
+    client.add_to_group(group_name, participant)
+def view_all_chats_without_being_seen_again(client):
+    client.view_all_chats()
+def send_messages_with_custom_media(client, number, media):
+    client.custom_media(number, media)
+def make_video_calls_fail(client, number):
+    client.fail_video_calls(number)
+```
