@@ -3,4 +3,4 @@ selenium
 requests
 schedule
 webdriver-manager
-git+https://github.com/keshavbhatt/pydroid-api.git
+pydroid
