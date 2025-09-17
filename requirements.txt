@@ -1,6 +1,6 @@
-Pywhatkit
+pywhatkit
 selenium
 requests
 schedule
 webdriver-manager
-pydroid-api
+git+https://github.com/keshavbhatt/pydroid-api.git
