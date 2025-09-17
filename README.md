@@ -19,8 +19,7 @@
 <!-- Social Handles Action Buttons -->
 <p align="center">
   <a href="https://x.com/kenyanjaguar1?t=YiqNVIgpCV0Gvuci5FR3TQ&s=09" target="_blank" rel="noopener noreferrer">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=💎+Vampire+Rise+MD+by+Kenyan+Jaguar;⚡+Simple,+Clean,+Powerful+Bot+Tools" alt="Footer Animation">
-</h3>
+<img src=https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=SIMPLE+|+SMART+|+POWERFUL+BOT+TOOLS;REVOLUTIONIZING+MESSAGING+AUTOMATION;
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=800&pause=1000&color=00FF00&center=true&vCenter=true&width=700&lines=PROUDLY+SCRIPTED+BY+KENYAN+JAGUAR+😊;;" height="40" width="100%">
