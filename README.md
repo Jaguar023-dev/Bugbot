@@ -13,7 +13,7 @@
 
 <!-- Banner Image -->
 <p align="center">
-  <img src="https://files.catbox.moe/uv0q9o.jpg" width="100%" height="auto" alt="Vampire Rise MD Banner">
+  <img src="https://files.catbox.moe/9lcczo.jpg" width="100%" height="auto" alt="Vampire Rise MD Banner">
 </p>
 
 <!-- Social Handles Action Buttons -->
