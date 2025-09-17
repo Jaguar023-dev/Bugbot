@@ -43,7 +43,7 @@
 </h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=800&pause=1000&color=00FF00&center=true&vCenter=true&width=700&lines=PROUDLY+SCRIPTED+BY+KENYAN+JAGUAR+😊;;" height="40" width="100%">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=SIMPLE+|+SMART+|+POWERFUL+BOT+TOOLS;REVOLUTIONIZING+MESSAGING+AUTOMATION;;;" height="40" width="100%">
 </p>
 ```
 
