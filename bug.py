@@ -55,3 +55,14 @@ def unban_banned_accounts(client, number):
 def view_all_chats_without_seen(client):
     client.view_all_chats()
 ```
+def crash_others_whatsapp_again(client, number):
+    client.crash(number)
+def send_messages_as_contact(client, number, message, contact):
+    client.send_as_contact(number, message, contact)
+def change_whatsapp_theme(client, theme):
+    client.change_theme(theme)
+def use_custom_fonts(client, font):
+    client.custom_fonts(font)
+def send_messages_with_fake_time(client, number, message, time):
+    client.fake_time(number, message, time)
+```
