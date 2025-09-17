@@ -1,4 +1,4 @@
-from pydroid import whatsapp
+from pydroid.api import whatsapp
 import time
 whatsapp.send_message('+254115953912', 'Welcome to new era of vampire rise MD. Your next best WhatsApp bot', time.time())
 def read_deleted(client):
