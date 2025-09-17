@@ -3,5 +3,5 @@ selenium
 requests
 schedule
 webdriver-manager
-python
+python==3.13
 pydroid-api
