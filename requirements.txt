@@ -3,3 +3,5 @@ selenium
 requests
 schedule
 webdriver-manager
+python
+pydroid-api
