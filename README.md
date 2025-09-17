@@ -1,0 +1,2 @@
+# Bugbot
+Bugbot trial bot 
