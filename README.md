@@ -1,4 +1,3 @@
-```markdown
 <span style="color: #FF69B4">WhatsApp Bot</span>
 <span style="color: #FFC67D">Description</span>
 WhatsApp Bot is a Python-based automation tool for WhatsApp messaging.
@@ -10,5 +9,4 @@ WhatsApp Bot is a Python-based automation tool for WhatsApp messaging.
 ```bash
 pip install pywhatsapp selenium requests schedule
 ```
-...
-```
+
