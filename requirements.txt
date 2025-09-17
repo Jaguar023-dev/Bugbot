@@ -1,4 +1,4 @@
-pywhatkit
+pywhatsapp
 selenium
 requests
 schedule
