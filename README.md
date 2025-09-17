@@ -1,4 +1,3 @@
-**Colorful README Template for WhatsApp Bot**
 ```
 <font color="#FF69B4">**WhatsApp Bot**</font>
 ====================
@@ -37,4 +36,3 @@ Check error logs, ensure correct installation
 MIT License
 </font>
 ```
-
