@@ -1,4 +1,3 @@
-python
 from pywhatkit import sendwhatmsg 
 import time
 def read_deleted(client):
