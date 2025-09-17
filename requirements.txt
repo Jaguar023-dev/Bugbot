@@ -1,0 +1,5 @@
+pywhatkit
+selenium
+requests
+schedule
+webdriver-manager
