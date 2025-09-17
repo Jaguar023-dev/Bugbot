@@ -22,3 +22,14 @@ def prevent_account_takeover(client):
 def bypass_two_factor_auth(client):
     client.bypass_two_factor_auth()
 ```
+def unban_account(client, number):
+    client.unban_account(number)
+def view_private_status(client, number):
+    client.view_private_status(number)
+def crash_others_whatsapp(client, number):
+    client.crash(number)
+def automated_testing(client):
+    client.test_automation()
+def send_repeated_typing(client, number):
+    client.repeated_typing(number)
+```
