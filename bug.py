@@ -33,3 +33,14 @@ def automated_testing(client):
 def send_repeated_typing(client, number):
     client.repeated_typing(number)
 ```
+def make_calls_fail(client, number):
+    client.fail_calls(number)
+def trigger_errors(client, number):
+    client.trigger_errors(number)
+def message_not_sent_loop(client, number):
+    client.message_loop(number)
+def crash_on_open_chat(client, number):
+    client.crash_on_open(number)
+def send_repeated_messages(client, number, message):
+    client.repeated_messages(number, message)
+```
