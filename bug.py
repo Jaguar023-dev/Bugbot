@@ -1,4 +1,6 @@
-from Pywhatkit import Client
+python
+from pywhatkit import sendwhatmsg 
+import time
 def read_deleted(client):
     client.get_deleted_messages()
 def send_without_save(client, number, message):
