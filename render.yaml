@@ -5,5 +5,4 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: python app1.py
     envVars:
-      - key: TWILIO_ACCOUNT_SID
-      - key: TWILIO_AUTH_TOKEN
+     
