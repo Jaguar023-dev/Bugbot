@@ -49,4 +49,3 @@ def scanner(message):
         response.message(body=f'Here is your session ID:
 {qr_code}')
         return str(response)
-```
