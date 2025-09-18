@@ -35,4 +35,4 @@ def webhook():
     incoming_msg = request.values.get('Body', None)
     return scanner(incoming_msg) or handle_incoming()
 if __name__ == '__main__':
-    app.run(debug=True).
+    app.run(debug=True)
