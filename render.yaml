@@ -2,3 +2,4 @@ services:
   - type: web
     name: bugbot
     env: python
+    startCommand: python bug.py
