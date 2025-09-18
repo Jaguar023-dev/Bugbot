@@ -1,8 +1,4 @@
 services:
-  - type: web
-    name: bugbot
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python app1.py
-    
-     
+  - type: web
+    name: bugbot
+    env: python
