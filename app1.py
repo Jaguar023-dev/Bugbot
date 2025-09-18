@@ -36,3 +36,17 @@ def webhook():
     return scanner(incoming_msg) or handle_incoming()
 if __name__ == '__main__':
     app.run(debug=True).
+
+def scanner(message):
+    if message.lower() == 'scan':
+        response = MessagingResponse()
+        response.message(body='Send me the QR code or type "generate" to generate session.')
+        return str(response)
+    elif message.lower() == 'generate':
+        session_id = generate_session()
+        response = MessagingResponse()
+        qr_code = pyfiglet.figlet_format(session_id)
+        response.message(body=f'Here is your session ID:
+{qr_code}')
+        return str(response)
+```
