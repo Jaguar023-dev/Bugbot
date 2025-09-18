@@ -4,8 +4,8 @@ from flask import Flask, request, jsonify
 import os
 import uuid
 import pyfiglet
-account_sid = 'YOUR_ACCOUNT_SID' #replace with your Twilio SID
-auth_token = 'YOUR_AUTH_TOKEN' #replace with your Twilio token
+account_sid = 'YOUR_ACCOUNT_SID' 
+auth_token = 'YOUR_AUTH_TOKEN' 
 client = Client(account_sid, auth_token)
 app = Flask(__name__)
 def generate_session():
