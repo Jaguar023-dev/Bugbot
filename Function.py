@@ -51,4 +51,4 @@ def get_random(ext):
     return f'{randint(0, 10000)}{ext}'
 def is_url(url):
     pattern = re.compile(
-        r'^(?:http|ftp)s?://'  #.
+        r'^(?:http|ftp)s?://'  #
