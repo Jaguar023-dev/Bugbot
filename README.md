@@ -37,6 +37,11 @@
   </a>
 </p>
 
+<p align="center"> 
+<a href="https://api.render.com/deploy/srv-d39cbpbe5dus73apu1fg?key=k2DkCynNnPA"> 
+<img title="DEPLOY ON RENDER" src="https://img.shields.io/badge/🚀_DEPLOY_ON_RENDER-000000?style=for-the-badge&logo=render&logoColor=white&color=61DAFB" width="260" height="50"/>
+</a>
+
 <!-- Footer Typing -->
 <h3 align="center">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=💎+Vampire+Rise+MD+by+Kenyan+Jaguar;⚡+Simple,+Clean,+Powerful+Bot+Tools" alt="Footer Animation">
