@@ -3,7 +3,6 @@ selenium
 requests
 schedule
 webdriver-manager
-pydroid
 requests
 flask
 python-dotenv
