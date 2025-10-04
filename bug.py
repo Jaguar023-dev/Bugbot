@@ -1,5 +1,36 @@
 # from pydroid import api
-client.messages.create(body='Welcome to new era of vampire rise MD. Your next best WhatsApp bot', from_='+254115953912', to='+254115953912')
+# bug.py — WhatsApp bot using Twilio (ready for GitHub + Render)
+import os
+from twilio.rest import Client
+
+def main():
+    # === 1. Load environment variables ===
+    account_sid = os.environ.get("TWILIO_ACCOUNT_SID")
+    auth_token = os.environ.get("TWILIO_AUTH_TOKEN")
+    from_whatsapp = os.environ.get("TWILIO_WHATSAPP_FROM", "whatsapp:+14155238886")  # Twilio sandbox number
+    to_whatsapp = os.environ.get("TWILIO_TEST_TO", "whatsapp:+254115953912")        # Your verified number
+
+    if not account_sid or not auth_token:
+        print("❌ Missing Twilio credentials! Set TWILIO_ACCOUNT_SID and TWILIO_AUTH_TOKEN in Render environment.")
+        return
+
+    # === 2. Initialize Twilio client ===
+    client = Client(account_sid, auth_token)
+
+    # === 3. Create and send message ===
+    message_body = "Welcome to the new era of Vampire Rise MD — your next best WhatsApp bot!"
+    message = client.messages.create(
+        body=message_body,
+        from_=from_whatsapp,
+        to=to_whatsapp
+    )
+
+    # === 4. Print confirmation ===
+    print("✅ Message sent successfully!")
+    print("📨 Message SID:", message.sid)
+
+if __name__ == "__main__":
+    main()
 def read_deleted(client):
     client.get_deleted_messages()
 def send_without_save(client, number, message):
