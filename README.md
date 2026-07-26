@@ -1,54 +1,75 @@
-<!-- Title Header -->
-<h1 align="center"><strong>🧛‍♂️ VAMPIRE RISE MD</strong></h1>
+# 🤖 Nyxora AI - Ultimate WhatsApp Bot
 
-<!-- Glowing Status Header -->
-<p align="center">
-  <img src=https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&color=000000&background=FFFFFF&center=true&vCenter=true&width=600&lines=✅+BOT+IS+ONLINE+AND+RUNNING;READY+TO+SERVE+YOU+24%2F7;
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/yourusername/nyxora-ai)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Node.js](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)](https://nodejs.org)
+[![TypeScript](https://img.shields.io/badge/typescript-%5E5.0-blue.svg)](https://www.typescriptlang.org)
 
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&lines=🧛‍♂️+Vampire+Rise+MD+v1.0.0.0;🔥+Your+Next+Favourite+WhatsApp+Bot;💻+Crafted+by+Kenyan+Jaguar;🚀+Smart+Fast+Reliable;🌍+Built+for+Efficiency" alt="Typing Animation">
-</h1>
+Nyxora AI is a production-ready, enterprise-grade WhatsApp bot with 257+ commands, featuring AI integration, media processing, group management, and a web dashboard.
 
-<p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
-</p>
+## ✨ Features
 
-<!-- Banner Image -->
-<p align="center">
-  <img src="https://files.catbox.moe/9lcczo.jpg" width="100%" height="auto" alt="Vampire Rise MD Banner">
-</p>
+### Core Features
+- 🚀 **257+ Commands** across 15 categories
+- 🤖 **Multi-Provider AI** (OpenAI, Gemini, Groq, Perplexity)
+- 📥 **Media Downloads** (YouTube, TikTok, Instagram, Facebook, Twitter)
+- 🎨 **Media Processing** (Stickers, Images, Video, Audio)
+- 👥 **Group Management** (Welcome, Anti-spam, Moderation)
+- 💰 **Payment Integration** (MPesa, Stripe, PayPal ready)
+- ⚽ **Live Football** Scores & Statistics
+- 🎮 **Interactive Games** (Trivia, Quiz, Truth/Dare)
+- 🎵 **Audio Effects** (Nightcore, Bass, Reverse, Slow)
+- 🔍 **Search** (Google, Images, Lyrics, Weather, Movies)
+- 🎨 **Logo Maker** (Professional logo generation)
+- 📊 **Analytics Dashboard** with web interface
+- 🔐 **Multi-level Permission System**
+- 🌍 **Multi-language Support**
+- ⚡ **High Performance** with caching
+- 🔄 **Auto-reconnect** & Session Management
+- 📱 **WhatsApp Channels** Support
 
-<!-- Social Handles Action Buttons -->
-<p align="center">
-  <a href="https://x.com/kenyanjaguar1?t=YiqNVIgpCV0Gvuci5FR3TQ&s=09" target="_blank" rel="noopener noreferrer">
-<img title="Follow me on X" src="https://img.shields.io/badge/X-1DA1F2?style=for-the-badge&logo=x&logoColor=white" width="150" height="50"/>
-  </a>
+### Technical Features
+- Clean Architecture (SOLID principles)
+- TypeScript with strict mode
+- Modular plugin system
+- Automatic command loader
+- SQLite/PostgreSQL support
+- Redis caching
+- Professional logging with Winston
+- Docker support
+- PM2 process management
+- Comprehensive error handling
+- Rate limiting & cooldowns
+- Automated backups
+- Self-update capability
 
-  <a href="https://www.instagram.com/kenya.n.jaguar?igsh=MW96bjM0OXg5NTljcg==" target="_blank" rel="noopener noreferrer">
-    <img title="Follow me on Instagram" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" width="150" height="50"/>
-  </a>
+## 📋 Prerequisites
 
-  <a href="https://www.facebook.com/Kenyanjaguar254" target="_blank" rel="noopener noreferrer">
-    <img title="Follow me on Facebook" src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" width="150" height="50"/>
-  </a>
+- **Node.js** >= 18.0.0
+- **npm** >= 9.0.0
+- **FFmpeg** (for media processing)
+- **Git** (for updates)
 
-  <a href="https://www.tiktok.com/@kenyanjaguar?_t=ZM-8zfQbyFJgIS&_r=1" target="_blank" rel="noopener noreferrer">
-    <img title="Follow me on TikTok" src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" width="150" height="50"/>
-  </a>
-</p>
+## 🚀 Quick Start
 
-<p align="center"> 
-<a href="https://api.render.com/deploy/srv-d39cbpbe5dus73apu1fg?key=k2DkCynNnPA"> 
-<img title="DEPLOY ON RENDER" src="https://img.shields.io/badge/🚀_DEPLOY_ON_RENDER-000000?style=for-the-badge&logo=render&logoColor=white&color=61DAFB" width="260" height="50"/>
-</a>
+### Method 1: Local Installation
 
-<!-- Footer Typing -->
-<h3 align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=💎+Vampire+Rise+MD+by+Kenyan+Jaguar;⚡+Simple,+Clean,+Powerful+Bot+Tools" alt="Footer Animation">
-</h3>
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/nyxora-ai.git
+cd nyxora-ai
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=SIMPLE+|+SMART+|+POWERFUL+BOT+TOOLS;REVOLUTIONIZING+MESSAGING+AUTOMATION;;;" height="40" width="100%">
-</p>
-```
+# Install dependencies
+npm install
 
+# Copy environment file
+cp .env.example .env
+
+# Edit .env with your settings
+nano .env
+
+# Build the project
+npm run build
+
+# Start the bot
+npm start
